@@ -47,6 +47,15 @@ These experiments focus on deeper aspects of AI behavior such as constraint hand
 - [Multi-step Reasoning](prompt_6_multistep_reasoning.md) — Evaluates logical reasoning accuracy  
 
 ---
+## 🧠 What This Repo Explores
+
+- How prompt structure affects reasoning and accuracy  
+- Trade-offs between creativity and constraints  
+- Model behavior under ambiguous or unclear prompts  
+- Sensitivity to wording and phrasing  
+- Failure patterns in multi-step reasoning
+
+---
 
 ## 👤 About Me
 Computer Science student with a strong interest in Generative AI and evaluating conversational systems.
