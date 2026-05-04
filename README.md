@@ -20,12 +20,14 @@ To explore how prompt design affects AI output quality, reasoning, creativity, a
 
 ---
 
-## 🧠 Skills Demonstrated
-- Prompt Engineering  
-- Critical Thinking  
-- Output Analysis  
-- Response Optimization  
-- AI Behavior Understanding  
+ ## 🧪 Approach
+
+Each experiment focuses on:
+
+- The intent behind the prompt  
+- How the model actually responds  
+- Where it relies on patterns instead of reasoning  
+- What the behavior reveals about the model  
 
 ---
 
