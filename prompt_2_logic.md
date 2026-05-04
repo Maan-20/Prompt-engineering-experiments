@@ -1,21 +1,21 @@
-# Prompt Experiment 2: Logical Reasoning
+# Experiment: Logical Reasoning Stability
 
 ## Prompt
 If all roses are flowers and some flowers fade quickly, can we say all roses fade quickly?
 
 ## AI Response
-No, we cannot say all roses fade quickly. While roses are flowers, the statement only says that some flowers fade quickly, not all.
+No, we cannot say all roses fade quickly. While roses are flowers, only some flowers fade quickly.
 
-## Rating
-Good
+## Prompt Intent
+To check whether the model applies logical rules correctly rather than making assumptions.
 
-## Issues
-- Explanation is correct but lacks illustrative example  
-- Could improve clarity for non-technical users  
+## Observations
+- Correct reasoning is applied  
+- Response is concise and clear  
+- No unnecessary information added  
 
-## Why It's Problematic
-- Users unfamiliar with logic may not fully understand reasoning  
-- Lack of example reduces accessibility  
+## Issue
+- Explanation lacks an example, which could improve clarity  
 
-## Improved Response
-No, we cannot conclude that all roses fade quickly. While all roses are flowers, only some flowers fade quickly, which does not apply to all roses. For example, some flowers may fade quickly, but others last longer.
+## Insight
+The model handles structured logic well but often stops at correctness, without adapting explanations for better user understanding.
