@@ -1,22 +1,22 @@
-# Prompt Experiment 4: Instruction Precision
+# Experiment: Instruction Precision
 
 ## Prompt
-Explain photosynthesis in exactly one sentence using no more than 15 words.
+Explain photosynthesis in one sentence using no more than 15 words.
 
 ## AI Response
-Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce oxygen and energy in the form of glucose.
+Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce oxygen and glucose.
 
-## Rating
-Okay
+## Prompt Intent
+To test strict instruction following, especially length constraints.
 
-## Issues
-- Exceeds the 15-word limit  
-- Does not strictly follow instruction constraints  
-- Includes more detail than required  
+## Observations
+- Explanation is correct  
+- Exceeds the word limit  
+- Includes more detail than necessary  
 
-## Why It's Problematic
-- Failure to follow strict instructions reduces reliability  
-- Shows weak constraint adherence, which is critical in evaluation tasks  
+## Issue
+- Does not strictly follow the instruction  
+- Prioritizes completeness over constraint  
 
-## Improved Response
-Photosynthesis is the process by which plants convert sunlight into energy.
+## Insight
+The model tends to favor informative responses over strict compliance, even when clear constraints are given.
