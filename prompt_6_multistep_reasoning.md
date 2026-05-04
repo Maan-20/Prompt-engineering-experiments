@@ -1,24 +1,22 @@
-# Prompt Experiment 6: Multi-step Reasoning Evaluation
+# Experiment: Multi-step Reasoning Sensitivity
 
 ## Prompt
-A train travels 60 km in 1 hour and then 120 km in 2 hours. What is the average speed for the entire journey?
+A train travels 60 km in 1 hour and then 120 km in 2 hours. What is the average speed?
 
 ## AI Response
 The average speed is 90 km/h because (60 + 120) / 2 = 90.
 
-## Rating
-Bad
+## Prompt Intent
+To test whether the model correctly applies multi-step reasoning instead of relying on shortcuts.
 
-## Issues
-- Incorrect calculation of average speed  
-- Uses wrong formula (dividing distance by number of segments instead of total time)  
-- Demonstrates flawed multi-step reasoning  
+## Observations
+- Uses an incorrect method for calculating average speed  
+- Divides by number of segments instead of total time  
+- The answer appears reasonable but is logically incorrect  
 
-## Why It's Problematic
-- Produces a confidently incorrect answer  
-- Misleads users in basic mathematical reasoning  
-- Indicates failure in handling multi-step logic  
+## Issue
+- Relies on pattern-based calculation  
+- Fails to apply proper reasoning  
 
-## Improved Response
-The total distance traveled is 180 km (60 + 120), and the total time taken is 3 hours (1 + 2).  
-Average speed = total distance / total time = 180 / 3 = 60 km/h.
+## Insight
+The model tends to default to familiar patterns in multi-step problems, even when they lead to incorrect conclusions.
