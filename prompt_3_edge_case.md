@@ -1,21 +1,22 @@
-# Prompt Experiment 3: Edge Case Handling
+# Experiment: Handling Abstract Prompts
 
 ## Prompt
-Describe the smell of the color blue.
+What is the color of silence?
 
 ## AI Response
-Blue does not have a smell, as it is a color. However, people may associate blue with fresh or clean scents like ocean air.
+Silence is usually considered white or black.
 
-## Rating
-Good
+## Prompt Intent
+To test how the model responds to abstract or metaphorical questions.
 
-## Issues
-- Does not clearly separate literal vs metaphorical interpretation  
-- Slight ambiguity in explanation  
+## Observations
+- Treats the question as subjective but does not explain it  
+- Provides an answer without clarifying interpretation  
+- Lacks distinction between literal and metaphorical meaning  
 
-## Why It's Problematic
-- Users may misinterpret the response as factual rather than conceptual  
-- Lack of clarity reduces precision  
+## Issue
+- Assumes interpretation instead of explaining ambiguity  
+- Misses opportunity to guide the user  
 
-## Improved Response
-The color blue does not have a literal smell, as it is a visual concept. However, metaphorically, people often associate blue with fresh or clean scents, such as ocean air or cool breezes.
+## Insight
+The model often responds to abstract prompts by guessing an interpretation rather than explicitly addressing the ambiguity.
