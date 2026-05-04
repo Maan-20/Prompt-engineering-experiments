@@ -19,4 +19,6 @@ To test whether the model correctly applies multi-step reasoning instead of rely
 - Fails to apply proper reasoning  
 
 ## Insight
-The model tends to default to familiar patterns in multi-step problems, even when they lead to incorrect conclusions.
+- The model tends to default to familiar patterns in multi-step problems, even when they lead to incorrect conclusions.
+
+- Errors like this can affect real-world use cases such as financial calculations, planning, or decision-making where small mistakes can lead to incorrect outcomes.
